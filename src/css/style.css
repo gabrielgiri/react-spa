@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F2E4A4;
+  }
+    code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+.App {
+    background-color: #F2E4A4;
+    max-width: 992px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #2A2B24;
+    background-color: #801B14;
+    padding: 10px 20px;
+}
+.nav-menu li {
+    display: inline-block;
+}
+.nav-menu-link {
+    display: inline-block;
+    margin: 5px;
+    border:1px solid #2A2B24;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px 8px;
+    background-color: #FFE8B7;
+    text-transform: uppercase;
+}
+.nav-menu-link:hover {
+    background-color: #2A2B24;
+    color: #fff;
+}
+.logo {
+    float: left;
+    color:white;
+}
+.main-content {
+  background-color: white;
+  padding: 20px;
+}
+.home-image {
+  width: 100%;
+  height: 500px;
+  background-image: url('http://lorempixel.com/800/400/sports/');
+  background-size: cover;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.thumbnail-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+}
+
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3 {
+  width: 100%;
+  height: 140px;
+  margin: 10px;
+  background-size: cover;
+  transition: all .3s ease-in-out;
+ }
+
+ .home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 120%;
+ }
+
+ 
+ .home-thumbnail-1 {
+  background-image: url('http://lorempixel.com/600/400/sports/');
+ }
+ .home-thumbnail-2 {
+  background-image: url('http://lorempixel.com/600/400/food/');
+ }
+ .home-thumbnail-3 { background-image: url('http://lorempixel.com/600/400/city/');}
+
