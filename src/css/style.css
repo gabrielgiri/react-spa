@@ -38,8 +38,10 @@ nav {
     text-transform: uppercase;
 }
 .nav-menu-link:hover {
-    background-color: #2A2B24;
-    color: #fff;
+    background-color: #bbE9B7;
+}
+.nav-menu-link.active {
+  background-color:white;
 }
 .logo {
     float: left;
