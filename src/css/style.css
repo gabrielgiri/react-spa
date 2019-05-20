@@ -52,7 +52,7 @@ nav {
 .home-image {
   width: 100%;
   height: 500px;
-  background-image: url('http://lorempixel.com/800/400/sports/');
+  background-image: url('https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500/');
   background-size: cover;
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
@@ -69,7 +69,7 @@ nav {
 .home-thumbnail-2,
 .home-thumbnail-3 {
   width: 100%;
-  height: 140px;
+  height: 220px;
   margin: 10px;
   filter: grayscale(50%);
   background-size: cover;
@@ -87,10 +87,10 @@ nav {
 
  
  .home-thumbnail-1 {
-  background-image: url('http://lorempixel.com/600/400/sports/');
+  background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
  }
  .home-thumbnail-2 {
-  background-image: url('http://lorempixel.com/600/400/food/');
+  background-image: url('https://images.pexels.com/photos/193057/pexels-photo-193057.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
  }
- .home-thumbnail-3 { background-image: url('http://lorempixel.com/600/400/city/');}
+ .home-thumbnail-3 { background-image: url('https://images.pexels.com/photos/84763/pexels-photo-84763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');}
 
