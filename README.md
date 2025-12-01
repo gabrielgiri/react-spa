@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 Aplicación Web de Catálogo Tecnológico
 
-## Available Scripts
+## ![alt text](image.png)
 
-In the project directory, you can run:
+Esta es una **Aplicación de Página Única (SPA)** creada con **React**, diseñada para funcionar como un catálogo interactivo de hardware y periféricos.
 
-### `npm start`
+El proyecto se enfoca en la usabilidad y la estética **minimalista**, utilizando un diseño modular y **CSS Variables** para asegurar una fácil escalabilidad y personalización de la paleta de colores.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## 🛠️ Stack Tecnológico
 
-### `npm test`
+| Herramienta          | Versión Principal | Uso Específico                                          |
+| :------------------- | :---------------- | :------------------------------------------------------ |
+| **React**            | 18+               | Construcción de la interfaz de usuario.                 |
+| **React Router DOM** | v6                | Gestión eficiente de las rutas y navegación.            |
+| **CSS Variables**    | N/A               | Definición de la paleta de colores y tipografía global. |
+| **JavaScript**       | ES6+              | Lógica de la aplicación y componentes.                  |
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📋 Estructura de Componentes y Rutas
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Rutas Principales
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+El enrutamiento se gestiona en `App.js` y permite la navegación sin recargar la página:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Ruta           | Componente        | Tema de Contenido                              |
+| :------------- | :---------------- | :--------------------------------------------- |
+| `/`            | `Home.jsx`        | Introducción general y visión del hardware.    |
+| `/notebook`    | `Notebook.jsx`    | Detalle sobre Notebooks Gamers y portabilidad. |
+| `/impresoras`  | `Impresoras.jsx`  | Tecnologías de impresión (tinta vs. láser).    |
+| `/perifericos` | `Perifericos.jsx` | [Pendiente de desarrollo]                      |
 
-### `npm run eject`
+### Componentes Clave
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- `App.js`: Contiene el `<BrowserRouter>` y define todas las `<Route>`.
+- `Navbar.jsx`: Componente de navegación persistente (fuera de las rutas).
+- `./css/style.css`: Archivo principal con todos los estilos, incluyendo las variables (e.g., `--accent`, `--bg-card`).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ⚙️ Instalación y Configuración
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Sigue estos pasos para poner en marcha el proyecto en tu entorno local.
 
-## Learn More
+### 1. Requisitos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Necesitas tener **Node.js** y **npm** (o yarn) instalados en tu sistema.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 2. Clonar el Repositorio
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```bash
+git clone [URL-DE-TU-REPOSITORIO]
+cd [nombre-de-la-carpeta-del-proyecto]
+```
